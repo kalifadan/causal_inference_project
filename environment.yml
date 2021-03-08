@@ -1,0 +1,23 @@
+name: causal_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7.4
+  - ipython>=7.9
+  - numpy
+  - scikit-learn
+  - cudatoolkit
+  - jupyterlab
+  - matplotlib
+  - jupyter
+  - pandas
+  - cython
+  - pytest
+  - tqdm
+  - pip
+  - python-graphviz
+  - pip:
+    - nbmerge
+    - pytest-xdist
+
